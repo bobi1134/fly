@@ -1,4 +1,4 @@
-package cn.xlbweb;
+package cn.xlbweb.fly;
 
 /**
  * Hello world!

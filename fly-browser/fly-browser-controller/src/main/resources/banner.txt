@@ -1,0 +1,14 @@
+ ${AnsiColor.BRIGHT_YELLOW}
+ ________  _____   ____  ____
+|_   __  ||_   _| |_  _||_  _|
+  | |_ \_|  | |     \ \  / /
+  |  _|     | |   _  \ \/ /
+ _| |_     _| |__/ | _|  |_
+|_____|   |________||______|
+
+Author: bobi
+Date: 2018-05-02 23:00:00
+Github: https://github.com/bobi1234
+但行好事 莫问前程
+
+:: SpringBoot ::${spring-boot.formatted-version}

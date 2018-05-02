@@ -1,0 +1,13 @@
+# 开发环境
+# 服务器配置
+server:
+  # 端口
+  port: 8080
+
+# spring配置信息
+spring:
+  # output配置
+  output:
+    # 是否支持彩色输出(ANSI)
+    ansi:
+      enabled: always
