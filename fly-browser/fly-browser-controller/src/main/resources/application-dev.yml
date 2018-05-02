@@ -6,6 +6,10 @@ server:
 
 # spring配置信息
 spring:
+  # 模版引擎配置
+  thymeleaf:
+      mode: LEGACYHTML5
+      cache: false
   # output配置
   output:
     # 是否支持彩色输出(ANSI)

@@ -2,7 +2,7 @@ package cn.xlbweb.fly.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
  * @author: Mr.X
@@ -10,11 +10,11 @@ import org.springframework.web.bind.annotation.ResponseBody;
  * @description:
  */
 @Controller
+@RequestMapping
 public class IndexController {
 
     @GetMapping
-    @ResponseBody
     public String index() {
-        return "hello word";
+        return "index";
     }
 }
