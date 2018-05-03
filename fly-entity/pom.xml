@@ -9,16 +9,9 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>fly-cms</artifactId>
-    <packaging>pom</packaging>
+    <artifactId>fly-entity</artifactId>
 
-    <name>fly-cms</name>
-
-    <modules>
-        <module>fly-cms-controller</module>
-        <module>fly-cms-mapper</module>
-        <module>fly-cms-service</module>
-    </modules>
+    <name>fly-entity</name>
 
     <dependencies>
         <dependency>
@@ -27,7 +20,4 @@
             <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
-
-    <build>
-    </build>
 </project>

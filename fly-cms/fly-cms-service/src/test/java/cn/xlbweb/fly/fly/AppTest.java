@@ -1,4 +1,4 @@
-package cn.xlbweb.fly;
+package cn.xlbweb.fly.fly;
 
 import static org.junit.Assert.assertTrue;
 
