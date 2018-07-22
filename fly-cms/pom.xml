@@ -8,22 +8,26 @@
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
-
     <artifactId>fly-cms</artifactId>
     <packaging>pom</packaging>
-
     <name>fly-cms</name>
 
     <modules>
         <module>fly-cms-controller</module>
-        <module>fly-cms-mapper</module>
         <module>fly-cms-service</module>
+        <module>fly-cms-mapper</module>
     </modules>
 
     <dependencies>
         <dependency>
             <groupId>cn.xlbweb</groupId>
             <artifactId>fly-common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>cn.xlbweb</groupId>
+            <artifactId>fly-entity</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>

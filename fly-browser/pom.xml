@@ -8,16 +8,14 @@
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
-
     <artifactId>fly-browser</artifactId>
     <packaging>pom</packaging>
-
     <name>fly-browser</name>
 
     <modules>
-        <module>fly-browser-mapper</module>
-        <module>fly-browser-service</module>
         <module>fly-browser-controller</module>
+        <module>fly-browser-service</module>
+        <module>fly-browser-mapper</module>
     </modules>
 
     <dependencies>

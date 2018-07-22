@@ -8,9 +8,7 @@
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
-
     <artifactId>fly-entity</artifactId>
-
     <name>fly-entity</name>
 
     <dependencies>
